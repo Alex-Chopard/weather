@@ -8,6 +8,7 @@ class Search extends React.Component {
     render () {
         return (
             <div>
+                <p>{this.state.city }</p>
                 <label>
                     City: <input type="text" placeholder="City" value={this.state.city} onChange={
                         event => {
